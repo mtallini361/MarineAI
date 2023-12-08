@@ -23,7 +23,7 @@ setup(
     name='marine_ai',
     version='0.0.1',
     # TODO: Need to add George also
-    author='Michael'
+    author='Michael',
     author_email='mtallini361@gmail.com',
     packages=find_packages(),
     install_requires=get_requirements('requirements.txt')
