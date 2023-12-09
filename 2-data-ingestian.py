@@ -6,7 +6,7 @@ req = requests.get("INSTALL_WEBSITE_TO_BE_SCRAPED_HERE")
 
 soup = BeautifulSoup(req.content,"html.parser")
 
-for img in soup.findAllll("img"):
+for img in soup.findAll("img"):
     if img.get("src") != None:
         print (img.get("src"))
         img_url = img.get("src")
